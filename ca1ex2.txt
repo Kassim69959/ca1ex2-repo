@@ -1,0 +1,27 @@
+git config --global user.name "x00227733"
+git config --global user.email "X00227733@mytudublin.ie"
+git config --global core.autocrlf false
+git branch -m master main
+git init
+git add .
+git stutas
+git status
+git commit -m " modified"
+git branch -m master main
+git status
+git branch feature_local-test
+git checkout feature_local-test
+git add .
+git status
+git add .
+git status
+git commit -m " modified"
+git checkout main
+git add .
+git status
+git commit -m " modified"
+git merge feature-local-test
+git remote add origin https://github.com/Kassim69959/ca1ex2-repo.git
+git branch -M main
+git push -u origin main
+git pull
